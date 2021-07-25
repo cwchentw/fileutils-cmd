@@ -35,7 +35,7 @@ if not exist %libexec%\whichw.ps1 (
   exit /B 1
 )
 
-%pscmd% -File %root_dir%\wwhich.ps1 %*
+%pscmd% -File %libexec%\whichw.ps1 %*
 
 exit /B %ERRORLEVEL%
 
