@@ -8,7 +8,7 @@ Self contained utilities are no longer our main principle because Windows is lim
 
 ## System Requirements
 
-Some scripts depend on PowerShell while some on external tools. Our scripts always check whether external tools are valid on host systems in advance.
+Some scripts depend on PowerShell while some on external tools. Our scripts always check whether external tools are available on host systems in advance.
 
 ## Installation
 
