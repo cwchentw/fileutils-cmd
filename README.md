@@ -34,8 +34,4 @@ Add *path/to/yaccw/bin* to **PATH** to use these utilities.
 
 ## Copyright
 
-<<<<<<< HEAD
 Copyright (c) 2020-2021 Michelle Chen. Licensed under MIT.
-=======
-Copyright (c) 2020 Michelle Chen. Licensed under MIT
->>>>>>> 3106ba3a830487191576fc220bb36b8c2876bd9f
