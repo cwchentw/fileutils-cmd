@@ -1,25 +1,37 @@
 # YACCW
 
-YACCW (Yet Another Collection of Commands for Windows) aims to provide self-contained Windows command-line utilites, aka the commands that only depend on built-in features available on Windows.
+YACCW (Yet Another Collection of Commands for Windows) aims to provide <del>self-contained</del>small but useful Windows command-line utilites<del>, aka the commands that only depend on built-in features available on Windows</del>.
+
+## Note
+
+Self contained utilities are no longer our main principle because Windows is limited in console environments even with PowerShell. Instead, our future utilities will depend on common open-source tools that are ported to Windows.
 
 ## System Requirements
 
-Some scripts depend on either PowerShell Core or Windows PowerShell. Such scripts will check whether PowerShell is available.
+Some scripts depend on PowerShell while some on external tools. Our scripts always check whether external tools are valid on host systems in advance.
 
 ## Installation
 
-Most scripts are self-contained Batch scripts. Just copy whatever you want to a valid system path.
+<del>Most scripts are self-contained Batch scripts. Just copy whatever you want to a valid system path.</del>
+
+Clone the repo locally:
+
+```
+> git clone https://github.com/cwchentw/yaccw.git
+```
+
+Add *path/to/yaccw/bin* to **PATH** to use these utilities.
 
 ## Documentation
 
-* [wcat](/docs/wcat.md): concatenate one more text files
-* [wcd](/docs/wcd.md): change working directory
-* [wdl](/docs/wdl.md): download a file from a URL
-* [wls](/docs/wls.md): list files and directories
-* [wpwd](/docs/wpwd.md): show present working directory
-* [wtouch](/docs/wtouch.md): create an empty text file on destination
-* [wwhich](/docs/wwhich.md): check whether a command is available
+* [catw](/docs/catw.md): concatenate one more text files
+* [cdw](/docs/cdw.md): change working directory
+* [dlw](/docs/dlw.md): download a file from a URL
+* [lsw](/docs/lsw.md): list files and directories
+* [pwdw](/docs/pwdw.md): show present working directory
+* [touchw](/docs/touchw.md): create an empty text file on destination
+* [whichw](/docs/whichw.md): check whether a command is available
 
 ## Copyright
 
-Copyright (c) 2020 Michael Chen. Licensed under MIT.
+Copyright (c) 2020-2021 Michelle Chen. Licensed under MIT.
