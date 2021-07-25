@@ -35,9 +35,6 @@ if not exist %libexec%\whichw.ps1 (
   exit /B 1
 )
 
-<<<<<<< HEAD:bin/whichw.bat
-%pscmd% -File %libexec%\whichw.ps1 %*
-=======
 %pscmd% -File %root_dir%\wwhich.ps1 %*
 
 exit /B %ERRORLEVEL%
@@ -45,4 +42,3 @@ exit /B %ERRORLEVEL%
 rem Use `where` as the fallback command.
 :fallback
 where %*
->>>>>>> 3106ba3a830487191576fc220bb36b8c2876bd9f:wwhich.bat
