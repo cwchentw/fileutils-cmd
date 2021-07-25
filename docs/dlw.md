@@ -27,3 +27,10 @@ The destination will be *dest.txt* on *path\to* directory.
 ## Known Issues or Bugs
 
 On Windows, `Invoke-WebRequest` cmdlet is only supported on PowerShell 3.0 or above. PowerShell 3.0 is available on Windows 8 or Windows 7 with service pack 1.
+<<<<<<< HEAD:docs/dlw.md
+=======
+
+## Copyright
+
+Copyright (c) 2020 Michelle Chen. Licensed under MIT
+>>>>>>> 3106ba3a830487191576fc220bb36b8c2876bd9f:docs/wdl.md

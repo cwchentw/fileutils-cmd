@@ -34,4 +34,12 @@ Show hidden directories and files on current working directory:
 > lsw -a
 ```
 
+<<<<<<< HEAD:docs/lsw.md
 `lsw` with `-a` parameter follows unix convention to show the directories and the files starting with `.` (dot).
+=======
+`wls` with `-a` parameter follows unix convention to show the directories and the files starting with `.` (dot).
+
+## Copyright
+
+Copyright (c) 2020 Michelle Chen. Licensed under MIT
+>>>>>>> 3106ba3a830487191576fc220bb36b8c2876bd9f:docs/wls.md
