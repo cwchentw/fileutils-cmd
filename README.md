@@ -27,8 +27,10 @@ Add *path/to/yaccw/bin* to **PATH** to use these utilities.
 * [catw](/docs/catw.md): concatenate one more text files
 * [cdw](/docs/cdw.md): change working directory
 * [dlw](/docs/dlw.md): download a file from a URL
+* headw: show first *n* lines of text
 * [lsw](/docs/lsw.md): list files and directories
 * [pwdw](/docs/pwdw.md): show present working directory
+* tailw: show last *n* lines of text
 * [touchw](/docs/touchw.md): create an empty text file on destination
 * [whichw](/docs/whichw.md): check whether a command is available
 
