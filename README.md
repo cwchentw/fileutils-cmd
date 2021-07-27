@@ -22,7 +22,7 @@ Clone the repo locally:
 
 Add *path/to/yaccw/bin* to **PATH** to use these utilities.
 
-## Documentation
+## Our Utilities
 
 * [catw](/docs/catw.md): concatenate one more text files
 * [cdw](/docs/cdw.md): change working directory

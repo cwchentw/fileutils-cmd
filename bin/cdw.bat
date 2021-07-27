@@ -1,7 +1,5 @@
 @echo off
-rem wcd.bat - Simulate Unix `cd` on Windows
-rem Copyright (c) 2020 Michael Chen
-rem Licensed under MIT
+rem Simulate Unix `cd` on Windows
 
 
 set drive=%~d0

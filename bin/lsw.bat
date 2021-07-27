@@ -1,7 +1,5 @@
 @echo off
-rem wls.bat - Simulate Unix `ls` on Windows
-rem Copyright (c) 2020 Michael Chen
-rem Licensed under MIT
+rem Simulate Unix `ls` on Windows
 
 
 rem Limit the scopes of the variables in this script.

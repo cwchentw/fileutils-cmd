@@ -1,7 +1,5 @@
 @echo off
-rem wtouch.bat - Simulate Unix `touch` on Windows.
-rem Copyright (c) 2020 Michael Chen.
-rem Licensed under MIT.
+rem Simulate Unix `touch` on Windows.
 
 
 rem Limit the scopes of the variables in this script.

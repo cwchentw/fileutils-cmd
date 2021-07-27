@@ -1,7 +1,5 @@
 @echo off
-rem wcat.bat - simulate Unix `cat` on Windows
-rem Copyright (c) 2020 Michael Chen.
-rem Licensed under MIT
+rem Simulate Unix `cat` on Windows
 
 
 rem Limit the scopes of the variables of this script.

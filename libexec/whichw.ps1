@@ -1,6 +1,4 @@
-# wwhich.ps1 - Simulate Unix which on Windows
-# Copyright (c) 2020 Michael Chen
-# Licensed under MIT.
+# Simulate Unix which on Windows
 
 
 param (

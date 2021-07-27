@@ -1,7 +1,5 @@
 @echo off
-rem wpwd.bat - Simulate Unix `pwd` on Windows
-rem Copyright (c) 2020 Michael Chen
-rem Licensed under MIT
+rem pwdw.bat - Simulate Unix `pwd` on Windows
 
 
 echo %CD%

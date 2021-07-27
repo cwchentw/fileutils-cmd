@@ -1,7 +1,5 @@
 @echo off
-rem wdl.bat - Download data within the command line
-rem Copyright (c) 2020 Michael Chen
-rem Licensed under MIT
+rem Download data within the command line
 
 
 rem Limit the scopes of the variables in the script.
